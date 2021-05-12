@@ -1,0 +1,18 @@
+{
+  "name": "NGINX",
+  "version": "2.5.0",
+  "slug": "nginx",
+  "description": "NGINX server",
+  "url": "https://github.com/bogusfocused/addons/tree/master/nginx",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "ports": {
+    "80/tcp": null,
+    "443/tcp": null
+  },
+  "map": ["ssl", "share:rw"],
+  "options": {
+  },
+  "schema": {
+  },
+  "image": "fulhambuilds/ha-addon-nginx-{arch}"
+}
