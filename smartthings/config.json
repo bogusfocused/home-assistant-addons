@@ -1,6 +1,6 @@
 {
   "name": "SmartThingsBridge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "slug": "smartthingsbridge",
   "description": "Smart Things Mqtt Bridge (https://github.com/stjohnjohnson/smartthings-mqtt-bridge)",
   "url": "https://github.com/bogusfocused/hassio-addons/tree/master/smartthings",
