@@ -1,9 +1,8 @@
 #!/usr/bin/env bashio
 exec 2<&1
-mkdir -p /share/nginx
-rm -r /etc/nginx/http.d
-ln -s /share/nginx /etc/nginx/http.d
 
+CONF=$(bashio::config 'nginx')
+cat "$CONF" > /etc/nginx/http.d/default.conf
 
 # start server
 echo "Running nginx..."

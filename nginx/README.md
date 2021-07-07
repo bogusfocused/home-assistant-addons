@@ -8,7 +8,7 @@ Sets up a NGINX server
 
 ## About
 
-This addon is for advanced users. This allows custom config files. This allow full flexibility in configuring NGINX.
+This allow full flexibility in configuring NGINX.
 
 Sets up a NGINX web server.
 

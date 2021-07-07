@@ -13,11 +13,11 @@ Click on the "INSTALL" button.
 
 ## How to use
 
-Addon can read `/ssl` and `/share` folders. 
+Addon can read `/ssl` folder. 
 
 [Duck DNS](https://github.com/home-assistant/hassio-addons/tree/master/duckdns) add-on creates certificates in `/ssl` by default.
 
-The `/etc/nginx/conf.d` is mapped to `/share/nginx`
+The `/etc/nginx/http.d/default.conf` is mapped to `nginx` in configuration
 
 
 
