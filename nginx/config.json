@@ -1,6 +1,6 @@
 {
   "name": "NGINX",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "slug": "nginx",
   "description": "NGINX server",
   "url": "https://github.com/bogusfocused/addons/tree/master/nginx",

@@ -2,7 +2,7 @@
 exec 2<&1
 
 CONF=$(bashio::config 'nginx')
-cat "$CONF" > /etc/nginx/http.d/default.conf
+echo "$CONF" > /etc/nginx/http.d/default.conf
 
 # start server
 echo "Running nginx..."
