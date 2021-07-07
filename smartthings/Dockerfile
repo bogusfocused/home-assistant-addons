@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apk add --no-cache jq nodejs \ 
+RUN apk add --no-cache jq nodejs npm\ 
 	&& npm config set unsafe-perm true \
 	&& npm install -g smartthings-mqtt-bridge \
 	&& npm config set unsafe-perm false
