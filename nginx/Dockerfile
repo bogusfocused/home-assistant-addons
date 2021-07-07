@@ -6,5 +6,7 @@ RUN apk add --no-cache nginx openssl --repository=http://dl-cdn.alpinelinux.org/
 
 # Copy data
 COPY data/run.sh /
+RUN chmod a+x /run.sh
+
 
 CMD [ "/run.sh" ]
