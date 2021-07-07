@@ -1,6 +1,6 @@
 {
   "name": "SmartThingsBridge",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "slug": "smartthingsbridge",
   "description": "Smart Things Mqtt Bridge (https://github.com/stjohnjohnson/smartthings-mqtt-bridge)",
   "url": "https://github.com/bogusfocused/hassio-addons/tree/master/smartthings",
@@ -9,19 +9,19 @@
   "ports": {
     "2080/tcp": 2080
   },
-  "map": ["ssl", "share:rw"],
+  "map": ["ssl"],
   "options": {
     "name": "smartthings",
     "broker_host": "core-mosquitto",
-    "broker_port": 1080,
+    "broker_port": 1883,
     "login": null,
     "password": null
   },
   "schema": {
     "name": "str",
     "broker_host": "str",
-    "broker_port": "int",
-    "login": "str",
-    "password": "str"
+    "broker_port": "port",
+    "login": "str?",
+    "password": "password?"
   }
 }

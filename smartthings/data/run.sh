@@ -1,7 +1,6 @@
 #!/usr/bin/env bashio
 set -e
-export CONFIG_DIR=/share/smartthingsbridge
-mkdir -p $CONFIG_DIR
+export CONFIG_DIR=/data
 HOST=$(bashio::config 'broker_host')
 PORT=$(bashio::config 'broker_port')
 NAME=$(bashio::config 'name')
